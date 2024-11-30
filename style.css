@@ -1,0 +1,259 @@
+/*Seletor por ID*/
+#principal{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 120px;
+    background-color: #F3F3F3;
+}
+
+/*Seletor por Elemento*/
+h1 {
+    font-family:'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+}
+
+/*Seletor por Elemento*/
+time {
+    text-align: center;
+    font-family: fantasy;
+    font-size: 15px;
+    margin: 20px;
+}
+
+/*Seletor por Classe*/
+.xdp {
+    text-align: justify;
+    line-height: 30px;
+}
+
+/*Seletor por Elemento*/
+section {
+    padding: 20px;
+    margin: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: white;
+    border-radius: 8px;
+}
+
+/*Seletor por Elemento*/
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+/*Parte da imagem*/
+/*Seletor por Classe*/
+.foto {
+    border-radius: 50px;
+    text-align: center;
+    height: 400px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+/*Seletor por Classe*/
+p.tituloImg {
+    font-size: 12px;
+    text-align: center;
+}
+
+/*Seletor por Classe*/
+a.compImg {
+    font-size: 12x;
+    text-align: center;
+    color:#000000;
+}
+
+/*Seletor por pseudo-classe*/
+a.compImg:visited {
+    color:#000000;  
+}
+
+/*Seletor por pseudo-classe*/
+a.compImg:hover {
+    color:#000000; 
+}
+
+/*Seletor por pseudo-classe*/
+a.compImg:link {
+    color:#000000;
+}
+/**/
+
+/*Parte do menu*/
+/*Seletor por Elemento*/
+nav {
+    background-color: #000000;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    height: 70px;
+}
+
+/*Seletor por Elemento*/
+ul {
+    list-style-type: none;
+    background-color: #000000;
+    padding: 0;
+}
+
+/*Seletor por Classe*/
+.logo {
+    font-family: fantasy;
+    font-size: 30px;
+    margin: 20px;
+    text-transform: uppercase;
+}
+
+/*Seletor por Elemento*/
+nav ul li {
+    display: inline;
+    padding: 0 15px;
+}
+
+/*Seletor por Elemento*/
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+/**/
+
+
+/*Link*/
+/*Seletor por pseudo-classe*/
+a:link {
+    color: #FFF;
+    text-decoration: none;
+}
+
+/*Pseudo-classe*/
+a:visited {
+    color: #FFF;
+}
+
+/*Pseudo-classe*/
+a:hover {
+    color: #00fffb;
+}
+
+/*Pseudo-classe*/
+a:active {
+    color: #ff0000;
+}
+/**/
+
+
+/*Pagina de comentario*/
+/*Seletor por Classe*/
+.form-container {
+    width: 35%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/*Seletor por Classe*/
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/*Seletor por Elemento*/
+label,
+select {
+    display: block;
+    margin-bottom: 8px;
+}
+
+/*Seletor por atributo*/
+input[type="number"],
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/*Seletor por Elemento*/
+button {
+    background-color: #19b814b4;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-size: 19px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+/*Seletor por Pseudo-Classe*/
+button:hover {
+    background-color: #1ab8146e;
+}
+
+/*Seletor por Classe*/
+.form-container a {
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+}
+/**/
+
+/*Seletor por Classe*/
+a.btn {
+    background-color: #19b814b4;
+    padding: 10px 20px;
+    border: none;
+    font-size: 19px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/*Seletor por pseudo-classe*/
+a.btn:visited {
+    color:#FFF;  
+}
+
+/*Seletor por pseudo-classe*/
+a.btn:hover {
+    color:#FFF; 
+}
+
+/*Seletor por pseudo-classe*/
+a.btn:link {
+    color:#FFF; 
+}
+
+
+/*Deixar o site responsivo*/
+@media screen and (max-width: 768px) {
+    nav ul li {
+        display: relative;
+    }
+
+    section {
+        margin: 10px;
+    }
+}
+/**/
