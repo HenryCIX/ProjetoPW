@@ -1,7 +1,7 @@
 # <h1 align="center"> Projeto - Programação Web Front-End (2024_02) </h1>
 
 ## Tema: ODS 13: Ação contra a mudança global do clima
-<img src="img/ods13.webp">
+<img width="40" heigth="40" src="img/ods13.webp">
 
 ## Descrição:
 <p>Projeto tem o foco de explicar de maneira simples como as mudanças climáticas estão afetando o mundo. Assim, realizando os objetivos:</p>
