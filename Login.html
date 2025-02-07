@@ -16,7 +16,7 @@
         <header>
             <div>
                 <b class="logo">Projeto - ODS 13</b><br>
-                <time>30/11/2024</time>
+                <time>06/02/2025</time>
             </div>
             
           </header>    
@@ -25,26 +25,28 @@
             <li><a href="index.html#situacao">Situação</a></li>
             <li><a href="index.html#obj">Objetivos</a></li>
             <li><a href="index.html#solucao">Soluções</a></li>
-            <li><a href="Cadastro.html">Cadastro</a></li>
             <li><a href="Login.html">Comentário</a></li>
             <li><a href="https://henrycix.github.io">Contato</a></li>
+            <li><a href="admin.html">Admin</a></li>
         </ul>
     </nav>
 
     <div class="form-container">
         <h1>Enviar Comentario</h1>
-        <form id="form" action="#" method="POST">
+        <form id="comentarioForm" action="#" method="POST">
             <label for="email">E-mail:</label>
             <input type="text" id="email" name="email" placeholder="" required>
 
             <label for="pwd">Senha:</label>
-            <input type="password" id="pwd" name="pwd" required>
+            <input type="password" id="pwd" name="senha" required>
 
             <label for="comentario">Deixe sua opinião:</label>
-            <textarea name="comentario" rows="5" cols="30" id="comentario"></textarea>
+            <textarea name="coment" rows="5" cols="30" id="comentario"></textarea>
 
             <button type="submit">Enviar</button>
         </form>
+        <ul class="Cadul" id="cadList"></ul>
+        <script src="scriptComentario.js"></script>
     </div>
     <footer>
         <span> 

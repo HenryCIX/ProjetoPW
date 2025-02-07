@@ -103,7 +103,7 @@ nav {
 }
 
 /*Seletor por Elemento*/
-ul {
+.navul {
     list-style-type: none;
     background-color: #000000;
     padding: 0;
@@ -199,6 +199,7 @@ button {
     background-color: #19b814b4;
     color: white;
     padding: 10px 20px;
+    margin-bottom: 10px;
     border: none;
     font-size: 19px;
     border-radius: 4px;
@@ -257,3 +258,20 @@ a.btn:link {
     }
 }
 /**/
+.Cadul {
+    list-style-type: none;
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 5px;
+  }
+
+.btnDeletar {
+    background-color: #ff0000b4;
+    padding: 10px 50px;
+    margin: 20px auto;
+    border: none;
+    font-size: 19px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+}

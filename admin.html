@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto sobre a ODS 13</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body id="principal">
+
+    <nav>
+        <header>
+            <div>
+                <b class="logo">Projeto - ODS 13</b><br>
+                <time>06/02/2025</time>
+            </div>
+
+        </header>
+        <ul class="navul">
+            <li class=""><a href="index.html">ODS 13</a></li>
+            <li><a href="index.html#situacao">Situação</a></li>
+            <li><a href="index.html#obj">Objetivos</a></li>
+            <li><a href="index.html#solucao">Soluções</a></li>
+            <li><a href="Login.html">Comentário</a></li>
+            <li><a href="https://henrycix.github.io">Contato</a></li>
+            <li><a href="admin.html">Admin</a></li>
+        </ul>
+    </nav>
+
+    <div class="form-container">
+        <h1>Cadastro</h1>
+        <form id="cadForm" action="#" method="POST">
+            <label for="usernameInput">Nome do usuário:</label>
+            <input type="text" id="usernameInput" name="username" placeholder="insira um nome de usuário" required>
+
+            <label for="emailInput">E-mail:</label>
+            <input type="text" id="emailInput" name="email" placeholder="insira um e-mail válido" required>
+
+            <button type="submit">Cadastrar</button>
+            <button type="button" onclick="btnLimparCad()">Limpar formulário</button>
+            <button type="button" id="btnPesquisar">Pesquisar</button>
+        </form>
+        <ul class="Cadul" id="cadList"></ul>
+        <button onclick="carregarCadList()">Mostrar todos os registros</button>
+        <button class="btnDeletar" onclick="deletarTodoCad()">Deletar todos os registros</button>
+        <script src="script.js"></script>
+    </div>
+
+    <footer>
+        <span>
+            <i class="fa-solid fa-user"></i> Contato:
+            <a href="https://henrycix.github.io">CV Henry</a>
+        </span>
+        <br>
+        <span>
+            <i class="fa-solid fa-envelope"></i> Email:
+            <a href="mailto:henrychida@alunos.utfpr.edu.br">henrychida@alunos.utfpr.edu.br</a>
+        </span>
+        <br>
+        <span>
+            <i class="fa-brands fa-github"></i>
+            <a href="https://github.com/HenryCIX">GitHub</a>
+        </span>
+
+    </footer>
+</body>
+
+</html>
